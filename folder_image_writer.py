@@ -1,7 +1,7 @@
 from pathlib import Path
 import os
 
-dirs = ["ABPI", "BTAS", "BWM", "CAAV", "CMM", "EX", "F4", "FFCC", "JLU", "Markers", "ORVL", "RE", "STRF", "SWBW", "WCR", "WK", "WWE", "XDPS"]
+dirs = ["ABPI", "BTAS", "BWM", "CAAV", "CMM", "EX", "F4", "FFCC", "JLU", "Markers", "ORVL", "RE", "STRF", "SWBW", "WCR", "WK", "WWE", "XDPS", "STBG", "BGAM"]
 
 for dir in dirs:
     f = open(dir + "/images.html", "w")
