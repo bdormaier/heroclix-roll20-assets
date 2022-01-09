@@ -1,7 +1,7 @@
 from pathlib import Path
 import os
 
-dirs = ["HOX", "ABPI", "BTAS", "BWM", "CAAV", "CMM", "EX", "F4", "FFCC", "JLU", "Markers", "ORVL", "RE", "STRF", "SWBW", "WCR", "WK", "WWE", "XDPS", "STBG", "BGAM", "DCXM", "SVAC"]
+dirs = ["F4SLOP", "AFFE", "EM", "XRF", "WW80", "FFFF", "F4DC", "HOX", "ABPI", "BTAS", "BWM", "CAAV", "CMM", "EX", "F4", "FFCC", "JLU", "Markers", "ORVL", "RE", "STRF", "SWBW", "WCR", "WK", "WWE", "XDPS", "STBG", "BGAM", "DCXM", "SVAC"]
 
 for dir in dirs:
     f = open(dir + "/images.html", "w")
@@ -16,3 +16,4 @@ for dir in dirs:
         f.write("\"/>")
 
     f.write("</div></body></html>")
+    f.close()
