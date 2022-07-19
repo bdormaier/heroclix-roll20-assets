@@ -2,7 +2,7 @@ name: generate-preview-html
 
 on:
 	push
-		branches:
+		branches: 'master'
 
 jobs:
 	build:
